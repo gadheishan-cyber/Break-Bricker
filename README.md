@@ -1,4 +1,4 @@
-# Brick Breaker
+# 🎮 Brick Breaker
 
 A classic **Brick Breaker** game built with **Python** and **Pygame**. Includes smooth gameplay, sound effects, and power-ups to make it more exciting!
 
