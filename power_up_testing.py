@@ -1,4 +1,4 @@
-#  Initial Testing Of Pad Expand Function 
+#  Initial Testing Of Pad Expand Feature.
 
 import pygame
 

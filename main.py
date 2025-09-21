@@ -65,7 +65,7 @@ def show_level_transition(level):
     pygame.time.delay(1500)
 
 
-def build_bricks_level_1():   #  <-- Level 1 : Classic horizontal row
+def build_bricks_level_1():   #  <-- Level 1 : Classic Horizontal Row
     bricks = []
     cols = 22
     step = 39
@@ -85,7 +85,7 @@ def build_bricks_level_1():   #  <-- Level 1 : Classic horizontal row
     return bricks
 
 
-def build_bricks_level_2():   #  <-- Level 2 : Pyramid pattern
+def build_bricks_level_2():   #  <-- Level 2 : Pyramid Pattern
     bricks = []
     step = 39
     rows_data = [
@@ -106,7 +106,7 @@ def build_bricks_level_2():   #  <-- Level 2 : Pyramid pattern
     return bricks
 
 
-def build_bricks_level_3():    #  <-- Level 3 : Diamond pattern
+def build_bricks_level_3():    #  <-- Level 3 : Diamond Pattern
     bricks = []
     step = 39
     
