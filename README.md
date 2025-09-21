@@ -15,9 +15,9 @@ A classic **Brick Breaker** game built with **Python** and **Pygame**. Includes 
 <br>
 🎯 Three levels
 
-# Controls
-**Left arrow** --> Move paddle left
+# 🕹️ Controls
+⬅️**Left arrow** --> Move paddle left
 <br>
-**Right arrow** --> Move paddle right
+➡️**Right arrow** --> Move paddle right
 <br>
-**Press 'P'** --> Pause the game
+⏯️**Press 'P'** --> Pause the game
