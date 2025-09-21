@@ -4,6 +4,7 @@ A classic **Brick Breaker** game built with **Python** and **Pygame**. Includes 
 
 # Features
 Paddle and ball physics 
+<br>
 Breakable bricks with score system
 Start window and Pause window(Press 'P' to activate)
 Sound effects
