@@ -16,30 +16,30 @@ WINNER_FONT = pygame.font.SysFont("nunito", 80)
 LEVEL_FONT = pygame.font.SysFont("nunito", 40)
 BALL_RADIUS = 12
 
-brick_hit = pygame.mixer.Sound("bk_hit.wav")
-wall_hit  = pygame.mixer.Sound("wall_hit.ogg")
-pad_hit = pygame.mixer.Sound("pad.ogg")
+brick_hit = pygame.mixer.Sound("Sound/bk_hit.wav")
+wall_hit  = pygame.mixer.Sound("Sound/wall_hit.ogg")
+pad_hit = pygame.mixer.Sound("Sound/pad.ogg")
 
 COLOR = (213,254,230)
 BLACK = (0,0,0)
 
 BRICK_WIDTH , BRICK_HEIGHT = 42, 45
 
-YELLOW_BK   = pygame.transform.scale(pygame.image.load("new yellow bk.png"),   (BRICK_WIDTH , BRICK_HEIGHT))
-PINK_BK     = pygame.transform.scale(pygame.image.load("new pink bk.png"),     (BRICK_WIDTH , BRICK_HEIGHT))
-PURPLE_BK = pygame.transform.scale(pygame.image.load("new purple bk.png"),     (BRICK_WIDTH , BRICK_HEIGHT))
-DARK_BK     = pygame.transform.scale(pygame.image.load("new blue bk.png"),     (BRICK_WIDTH , BRICK_HEIGHT))
+YELLOW_BK   = pygame.transform.scale(pygame.image.load("Images/new yellow bk.png"),   (BRICK_WIDTH , BRICK_HEIGHT))
+PINK_BK     = pygame.transform.scale(pygame.image.load("Images/new pink bk.png"),     (BRICK_WIDTH , BRICK_HEIGHT))
+PURPLE_BK = pygame.transform.scale(pygame.image.load("Images/new purple bk.png"),     (BRICK_WIDTH , BRICK_HEIGHT))
+DARK_BK     = pygame.transform.scale(pygame.image.load("Images/new blue bk.png"),     (BRICK_WIDTH , BRICK_HEIGHT))
 
-YELLOW_DAM   = pygame.transform.scale(pygame.image.load("new yellow_dam bk.png"), (BRICK_WIDTH , BRICK_HEIGHT))
-PINK_DAM     = pygame.transform.scale(pygame.image.load("new pink_dam bk.png"),   (BRICK_WIDTH , BRICK_HEIGHT))
-PURPLE_DAM = pygame.transform.scale(pygame.image.load("new purple_dam bk.png"),   (BRICK_WIDTH , BRICK_HEIGHT))
-DARK_DAM     = pygame.transform.scale(pygame.image.load("new blue_dam bk.png"),   (BRICK_WIDTH , BRICK_HEIGHT))
+YELLOW_DAM   = pygame.transform.scale(pygame.image.load("Images/new yellow_dam bk.png"), (BRICK_WIDTH , BRICK_HEIGHT))
+PINK_DAM     = pygame.transform.scale(pygame.image.load("Images/new pink_dam bk.png"),   (BRICK_WIDTH , BRICK_HEIGHT))
+PURPLE_DAM = pygame.transform.scale(pygame.image.load("Images/new purple_dam bk.png"),   (BRICK_WIDTH , BRICK_HEIGHT))
+DARK_DAM     = pygame.transform.scale(pygame.image.load("Images/new blue_dam bk.png"),   (BRICK_WIDTH , BRICK_HEIGHT))
 
-resume_img = pygame.image.load("RESUME - ed.png").convert_alpha()
-start_img = pygame.image.load("start_btn.png").convert_alpha()
-exit_img = pygame.image.load("exit_btn.png").convert_alpha()
+resume_img = pygame.image.load("Images/RESUME - ed.png").convert_alpha()
+start_img = pygame.image.load("Images/start_btn.png").convert_alpha()
+exit_img = pygame.image.load("Images/exit_btn.png").convert_alpha()
 
-BASE_PAD_IMAGE = pygame.image.load("new pad.png").convert_alpha()
+BASE_PAD_IMAGE = pygame.image.load("Images/new pad.png").convert_alpha()
 
 GAME_LOST = WINNER_FONT.render("Game Over!", True, BLACK)
 GAME_WIN = WINNER_FONT.render("You Win!", True, BLACK)
