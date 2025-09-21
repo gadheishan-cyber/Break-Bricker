@@ -9,7 +9,7 @@ WIN = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Brick Breaker")
 
 COLOR = (40,245,240)
-BASE_PAD_IMAGE = pygame.image.load("new pad.png").convert_alpha()
+BASE_PAD_IMAGE = pygame.image.load("Images/new pad.png").convert_alpha()
 
 random_bk_x = WIDTH//2
 random_bk_y = HEIGHT//2
