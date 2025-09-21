@@ -17,5 +17,8 @@ Three levels
 
 # Controls
 **Left arrow** --> Move paddle left
+<br>
 **Right arrow** --> Move paddle right
+<br>
+
 **Press 'P'** --> Pause the game
